@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="/dom/index.js">
+    
+    </script> -->
+</head>
+
+
+<body>
+    <h1 id="title">Hello World</h1>
+ <button id="btn">Click Me</button>
+</body>
+<script>
+    const title = document.getElementById('title');
+
+// Change the text
+title.innerText = 'Hello JavaScript!';
+
+// Add a click event to the button
+document.getElementById('btn').addEventListener('click', function() {
+  title.style.color = 'red'; // Change color on click
+});
+</script>
+</html>
