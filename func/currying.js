@@ -1,5 +1,4 @@
 
-  
   // Curried function
   function curriedAdd(a) {
     return function (b) {
